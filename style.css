@@ -1,0 +1,545 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1500px;
+    margin: 0 auto;
+   min-height: 100%;
+}
+
+.header {
+    background-color: powderblue;
+    height: 700px;
+    min-width: 500px;
+}
+
+.header .header_top {
+    height: 135px;
+}
+
+.logo {
+    width: 490px;
+    height: 35px;
+    display: block;
+    background-size: cover;
+    background-image: url(img/logo3.png);
+    margin-left: 234px;
+    margin-top: 50px;
+    float: left;
+}
+
+.icons ul li {
+    float: right;
+    margin-right: 15px;
+    list-style-type: none;
+}
+
+.icons {
+    padding-right: 229px;
+    padding-top: 60px;
+}
+
+.header .welcome {
+    background-color: #e5e4e2;
+    height: 300px;
+    width: 270px;
+    margin-left: 165px;
+    margin-top: 201px;
+    float: left;
+}
+
+.header .best_offer {
+    width: 300px;
+    height: 143px;
+    float: right;
+    margin-right: 287px;
+    margin-top: 244px;
+}
+
+.header .best_offer h2 {
+    font-family: "Myriad Pro";
+    font-weight: 400;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.header .best_offer p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+
+}
+
+.best_offer_byu_now {
+    height: 49px;
+    width: 124px;
+    margin-top: 30px;
+    border: 1px solid black;
+    background-color: whitesmoke;
+}
+
+.best_offer_byu_now a {
+    display: block;
+    font-size: 10px;
+    font-weight: 400;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+    padding: 20px 0;
+}
+
+.best_offer_byu_now a:hover {
+    background-color: black;
+    color: white;
+}
+
+.header .welcome h3 {
+    color: #333333;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+    padding: 0 25px;
+    margin-top: 50px;
+    margin-bottom: 24px;
+    text-transform: uppercase;
+}
+
+.header .welcome p {
+    color: #333333;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    padding: 0 22px;
+    text-align: left;
+}
+
+.content {
+background-color: #f8f8f8;
+    min-width: 400px;
+}
+
+.nav {
+    width: 270px;
+    background-color: #26d2fc;
+    float: left;
+    margin-left: 165px;
+    margin-top: -20px;
+}
+
+.nav .menu_heading p {
+    width: 228px;
+    height: 34px;
+    background-color: #333333;
+    color: #ffffff;
+    font-family: "Myriad Pro";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 32px;
+    text-transform: uppercase;
+    padding-left: 42px;
+    padding-top: 32px;
+}
+
+.nav ul li {
+    color: #000000;
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 43px;
+    text-align: left;
+    list-style-type: none;
+    padding: 0 40px;
+    text-transform: uppercase;
+    height: 43px;
+}
+
+.nav ul li:hover {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+.menu_heading_bottom {
+    position: absolute;
+    top: 1080px;
+    width: 270px;
+    height: 300px;
+    background-color: #e0e0e0;
+}
+
+.menu_heading_bottom p {
+    position: relative;
+    left: 100px;
+    top: 129px;
+    right: 34px;
+    bottom: 74px;
+    color: #333333;
+    font-size: 36px;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+
+.items {
+    width: 900px;
+    height: 724px;
+    background-color: #f8f8f8;
+    float: left;
+    margin-top: -20px;
+}
+
+
+.items_head {
+    color: #707070;
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+    display: block;
+    padding-top: 30px;
+    padding-left: 57px;
+    padding-bottom: 33px;
+}
+
+.items_block li {
+    position: relative;
+    float: left;
+    display: block;
+    list-style-type: none;
+    width: 270px;
+    height: 320px;
+    background-color: #ffffff;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.items_block li a {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px
+}
+
+.items_block li .item_name {
+    position: absolute;
+    top: 265px;
+    left: 26px;
+    bottom: 42px;
+    width: 119px;
+    height: 13px;
+    color: #333333;
+    font-family: "Myriad Pro";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.items_block li .item_price {
+    position: absolute;
+    top: 268px;
+    right: 15px;
+    border: 40px;
+    left: 193px;
+    width: 70px;
+    height: 12px;
+    color: #333333;
+    font-family: "Myriad Pro";
+    font-size: 18px;
+    font-weight: 400
+}
+
+.items_block li:hover {
+    background-color: black;
+}
+
+.items_block li:hover p {
+    color: white;
+}
+
+.corner_new {
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    background-image: url(img/Corner.png);
+    left: 225px;
+}
+
+.corner_new p {
+   position: absolute;
+    width: 19px;
+    height: 7px;
+    color: black;
+    font-size: 9px;
+    font-weight: 400;
+    text-transform: uppercase;
+    left: 21px;
+    top: 10px;
+    right: 6px;
+    bottom: 29px;
+}
+
+.corner_hot {
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    background-image: url(img/Corner_hot.png);
+    left: 225px;
+}
+
+.corner_hot p {
+    position: absolute;
+    width: 19px;
+    height: 7px;
+    color: black;
+    font-size: 9px;
+    font-weight: 400;
+    text-transform: uppercase;
+    left: 21px;
+    top: 10px;
+    right: 6px;
+    bottom: 29px;
+}
+
+
+.item_top_head {
+    color: #707070;
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+    display: block;
+    padding-top: 30px;
+    padding-left: 57px;
+    padding-bottom: 33px;
+}
+
+.item_sale_head {
+    color: #707070;
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+    display: block;
+    padding-top: 30px;
+    padding-left: 57px;
+    padding-bottom: 33px;
+}
+
+.items-booth {
+    width: 1170px;
+    float: left;
+   margin-left: -268px;
+    
+}
+
+.items-booth_logo {
+    height: 160px;
+    background-color: #ffffff;
+    background-image: url(img/logo3.png);
+    background-repeat: repeat-x;
+    background-position: center;
+}
+
+.items-booth_instagram {
+    height: 350px;
+    background-color: #eaeaea;
+}
+
+.items-booth_instagram-text {
+    height: 105px;
+}
+
+.items-booth_instagram-text p {
+    display: block;
+    float: left;
+    color: #333333;
+    font-size: 22px;
+    font-weight: 400;
+    padding-top: 53px;
+    padding-left: 486px;
+}
+
+.items-booth_instagram a {
+    display: block;
+    float: left;
+    height: 185px;
+    width: 185px;
+    margin-bottom: 60px;
+    margin-right: 12px;
+}
+
+.items-booth_instagram a:last-of-type {
+    margin-right: 0px;
+}
+
+
+.items-booth_social a {
+    display: block;
+    float: left;
+    width: 390px;
+    height: 150px;
+}
+
+.items-booth_social-facebook {
+    background-color: #3b5997;
+    background-image: url(img/f_icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.items-booth_social-twitter {
+    background-color: #3fccfd;
+    background-image: url(img/tw_icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.items-booth_social-pic {
+    background-color: #cb2027;
+    background-image: url(img/pin_icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.footer {
+    margin: 0 auto;
+    min-width: 500px;
+    width: 1500px;
+    margin-top: 2246px;
+}
+
+.footer_content {
+    height: 300px;
+    background-color: #373737;
+}
+
+.footer_content div {
+    float: left;
+}
+
+.footer_copy {
+    height: 50px;
+    background-color: #333333;
+}
+
+.footer_copy p {
+    color: #dad9d9;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 21.6px;
+    padding-left: 189px;
+    padding-top: 21px;
+}
+
+
+.footer_content_category {
+    margin-left: 192px;
+    padding-top: 75px;
+}
+
+.footer_content_category p {
+    padding-bottom: 28px;
+}
+
+.footer_content_account {
+    margin-left: 114px;
+    padding-top: 75px;
+}
+
+.footer_content_account p {
+    padding-bottom: 30px;
+}
+
+.footer_content_support {
+    margin-left: 87px;
+    padding-top: 75px;
+}
+
+.footer_content_support p {
+    padding-bottom: 27px;
+}
+
+.footer_content_newstler {
+    padding-top: 75px;
+    margin-left: 89px;
+    width: 267px;
+    height: 161px;
+}
+
+.footer_content_newstler-field {
+    display: block;
+    width: 160px;
+    height: 30px;
+    background-color: #fff51f;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 45px;
+    border: none;
+    margin-top: 20px;
+}
+
+.footer_content_newstler-field-btton {
+    width: 56px;
+    height: 25px;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 21px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    padding-left: 15px;
+    padding-top: 5px;
+}
+
+.footer_content_newstler-field-btton:hover {
+    background-color: white;
+    color: black;
+}
+
+.footer_content_newstler_text {
+    color: #f8f8f8;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+}
+
+.footer_content_about-us p:last-of-type {
+    color: #faef03;
+    font-size: 15px;
+
+    line-height: 36px;
+}
+
+.footer_content_about-us_text {
+    color: #ffffff;
+    font-size: 12px;
+    line-height: 15px;
+    padding-bottom: 14px;
+}
+
+.footer_content_about-us_phone {
+    padding-bottom: 15px;
+
+}
+
+.footer_content_about-us {
+    width: 233px;
+    height: 159px;
+    margin-left: 45px;
+    padding-top: 75px;
+}
+
+.footer_content ul li {
+    list-style-type: none;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.footer_content p {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+}
